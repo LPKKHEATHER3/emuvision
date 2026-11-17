@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local machine config / captured data — never commit
+machine.json
+*.log
+logs/
+shots/
+captures/
+*.xml
+*.bak*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets / local tooling
+.env
+.env.*
+.claude/
+.ruff_cache/
